@@ -8,8 +8,8 @@ start_time = time.time()
 
 #URL for calendar
 #Last id 1099395  
-driver = webdriver.PhantomJS(service_args=['--ssl-protocol=any']) 
-
+driver = webdriver.PhantomJS() 
+driver.set_window_size(1024, 768)
 
 
 for id in range(1050000, 1050050):
