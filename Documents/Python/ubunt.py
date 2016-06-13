@@ -8,7 +8,7 @@ start_time = time.time()
 
 #URL for calendar
 #Last id 1099395  
-driver = webdriver.Chrome()
+driver = webdriver.PhantomJS(service_args=['--ssl-protocol=any']) 
 
 
 
